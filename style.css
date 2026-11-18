@@ -1,0 +1,872 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*box1*/
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 50px;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/*box2*/
+.location {
+    padding: 8px 2px 8px 0;
+}
+
+.address1 {
+    color: #cccccc;
+    font-size: 0.70rem;
+    margin-left: 20px;
+}
+
+.address2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.75rem;
+    margin-left: 0;
+}
+
+.location-icon {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+/*box3*/
+.search {
+    display: flex;
+    width: 850px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.selection {
+    width: 55px;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    background-color: #c1c1c1;
+}
+
+.search-bar {
+    width: 100%;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.search:hover {
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+
+.search-icon {
+    display: flex;
+    width: 45px;
+    color: #000000;
+    background-color: #ff6200;
+    border-radius: 0 4px 4px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/*box 4*/
+.language{
+    display: flex;
+    height: 30px;
+    align-items: flex-end;
+}
+
+.flag{
+    width: 20px;
+    height: 15px;
+    background-image: url("flag.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+.lang{
+    margin-bottom: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 0.75rem;
+    border: none;
+}
+
+/*box5*/
+.signin{
+    display: block;
+    color: #ffffff;
+}
+
+.text1{
+    font-size: 0.70rem;
+}
+
+.text2{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/*box6*/
+.order{
+    display: block;
+    color: #ffffff;
+}
+
+/*box7*/
+.cart{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    padding: 5px;
+}
+
+.cart i{
+    font-size: 20px;
+}
+.cartp{
+    margin-left: 5px;
+    font-size: 0.85rem;
+}
+ /*panel*/
+ .panel{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color:#232536 ;
+    align-items: center;
+ }
+
+ .panel-border:hover {
+    border: 1px solid #ffffff;
+}
+ /*panelbox1*/
+ .panel1{
+    display:flex;
+    width:40px;
+    height:26px;
+    align-items: center;
+    color: #ffffff;
+    margin: 10px;
+ }
+
+ .ptext{
+    margin-left: 2px;
+    font-size: 0.90rem;
+    font-weight: 700;
+    color: #ffffff;
+ }
+ /*links*/
+ .links{
+    display: flex;
+    padding: 8px 9px;
+    align-items: center;
+    flex-grow:1;
+ }
+
+ .links a{
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 3px;
+    font-size: 0.80rem;
+    font-weight: 500;
+ }
+/*prime logo*/
+.prime-logo{
+    width: 400px;
+    height: 40px;
+    background-image: url("prime.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* back image */
+.mainimage{
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+}
+.image{
+    background-image: url("back image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 90%;
+    height: 400px;
+}
+/* content */
+.content{
+    display: flex;
+    background-color:rgb(212, 213, 229);
+    width: 90%;
+    margin-left:5%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    position: relative;
+}
+
+.box{
+    width: 23%;
+    height: 350px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2{
+    margin: 10px;
+    height: 55px;
+    font-size: 1.38rem;
+}
+
+.boximage{
+    width: 280px;
+    height: 200px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin: 0 15px;
+}
+
+p{
+    height: 16px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+/* footer */
+.back-top{
+    width: 90%;
+    height: 30px;
+    background-color: #37475A;
+    margin-left: 5% ;
+    padding: 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-top a{
+    color: #ffffff;    
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.back-top:hover{
+    opacity: 85%;
+}
+
+/* footer content */
+.footer-content{
+    width: 90%;
+    height: 350px;
+    background-color: #232F3E;
+    margin-left: 5% ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fcontent{
+    width: 215px;
+    height: 300px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.ftext1{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.ftext2{
+    font-size: 0.85rem;
+    font-weight: 550;
+    color: #dddddd;
+    margin: 10px 0 0 10px;
+    text-decoration: none;
+}
+
+.ftext2:hover{
+    text-decoration: underline solid #ffffff;
+}
+/* flogo */
+.footer-logo{
+    height: 70px;
+    width: 90%;
+    background-color: #232F3E;
+    border-top: 0.1px solid #ffffff;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flogo{
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    width: 100px;
+    height: 40px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.f-flag{
+    width: 20px;
+    height: 15px;
+    background-image: url("flag.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-logo p{
+    color: #ffffff;
+}
+/* copyright */
+.copyright{
+    width: 90%;
+    background-color: #131A22;
+    margin-left: 5% ;
+    padding: 10px 0 30px;
+    color: #dddddd;
+    text-align: center;
+}
+
+.cp1{
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0 7.5px 0 7.5px;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cp1:hover{
+    text-decoration: underline solid white;
+}
+
+.cp2{
+    font-size: 0.75rem;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    margin: 0;
+    font-weight: 550;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1201px) {
+
+        .panel {
+            height: 40px;
+        }
+
+        .panel1 {
+            margin: 6px;
+        }
+
+        .ptext {
+            font-size: 0.85rem;
+        }
+
+        .links {
+            padding: 5px 2px;
+        }
+
+        .links a {
+            padding: 4px;
+            margin: 0 1px;
+            font-size: 0.72rem;
+            white-space: nowrap;
+        }
+
+    .prime-logo {
+        width: 250px;
+        height: 40px;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+
+        .panel {
+            height: 40px;
+        }
+
+        .panel1 {
+            margin: 5px;
+        }
+
+        .ptext {
+            font-size: 0.80rem;
+        }
+
+        .links {
+            padding: 4px 1px;
+        }
+
+        .links a {
+            padding: 3px;
+            margin: 0;
+            font-size: 0.65rem;
+            white-space: nowrap;
+        }
+
+    .prime-logo {
+        width: 180px;
+        height: 40px;
+        background-size: 100% 100%;
+    }
+}
+
+
+/* ============================= */
+/* TABLET RESPONSIVENESS */
+/* ============================= */
+
+@media screen and (max-width: 1024px) {
+
+    /* Navbar */
+    .navbar {
+        height: auto;
+        min-height: 60px;
+        padding: 8px;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 100px;
+        flex-shrink: 0;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .search {
+        flex: 1;
+        width: auto;
+        min-width: 200px;
+    }
+
+    .prime-logo {
+        display: none;
+    }
+
+    /* Panel */
+    .panel {
+        overflow: hidden;
+    }
+
+    .panel1 {
+        flex-shrink: 0;
+    }
+
+    .links {
+        min-width: 0;
+        flex: 1;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+    }
+
+    .links::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Main image */
+    .mainimage {
+        height: 320px;
+    }
+
+    .image {
+        width: 100%;
+        height: 320px;
+    }
+
+    /* Content */
+    .content {
+        width: 94%;
+        margin-left: 3%;
+        margin-top: -90px;
+        gap: 12px;
+    }
+
+    .box {
+        width: 31%;
+        height: 320px;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 1.05rem;
+        height: auto;
+        min-height: 55px;
+    }
+
+    .boximage {
+        width: 90%;
+        height: 180px;
+        margin: 0 auto;
+        background-position: center;
+    }
+
+    /* Footer */
+    .footer-content {
+        width: 94%;
+        margin-left: 3%;
+        height: auto;
+        min-height: 350px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+        padding-bottom: 25px;
+    }
+
+    .fcontent {
+        width: 40%;
+        height: auto;
+        min-height: 220px;
+        margin-top: 25px;
+        flex-wrap: nowrap;
+    }
+
+    .footer-logo,
+    .copyright,
+    .back-top {
+        width: 94%;
+        margin-left: 3%;
+    }
+}
+/* ============================= */
+/* MOBILE RESPONSIVENESS */
+/* ============================= */
+
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        justify-content: space-between;
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .logo {
+        width: 90px;
+        height: 42px;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .order {
+        display: none;
+    }
+
+    .signin {
+        margin-left: auto;
+    }
+
+    .text1 {
+        font-size: 0.65rem;
+    }
+
+    .text2 {
+        font-size: 0.75rem;
+    }
+
+    .cart {
+        padding: 3px;
+    }
+
+    .cart i {
+        font-size: 17px;
+    }
+
+    .cartp {
+        font-size: 0.75rem;
+    }
+
+    .search {
+        order: 10;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+
+    /* Panel */
+    .panel {
+        height: 40px;
+        overflow: hidden;
+    }
+
+    .panel1 {
+        flex-shrink: 0;
+        margin: 5px;
+    }
+
+    .links {
+        min-width: 0;
+        flex: 1;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+    }
+
+    .links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .links a {
+        font-size: 0.75rem;
+    }
+
+    /* Main image */
+    .mainimage {
+        height: 260px;
+    }
+
+    .image {
+        width: 100%;
+        height: 260px;
+        background-position: center;
+    }
+
+    /* Content */
+    .content {
+        width: 94%;
+        margin-left: 3%;
+        margin-top: -65px;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .box {
+        width: calc(50% - 5px);
+        height: 300px;
+        margin-top: 10px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    h2 {
+        font-size: 0.95rem;
+        height: auto;
+        min-height: 60px;
+        margin: 10px;
+    }
+
+    .boximage {
+        width: 90%;
+        height: 170px;
+        margin: 0 auto;
+        background-position: center;
+    }
+
+    .box p {
+        margin-top: 10px;
+        font-size: 0.75rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        width: 94%;
+        margin-left: 3%;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+
+    .fcontent {
+        width: 45%;
+        height: auto;
+        min-height: 220px;
+        margin-top: 20px;
+        flex-wrap: nowrap;
+    }
+
+    .ftext1 {
+        font-size: 0.9rem;
+        margin-bottom: 12px;
+    }
+
+    .ftext2 {
+        font-size: 0.75rem;
+        margin-top: 8px;
+    }
+
+    .footer-logo,
+    .copyright,
+    .back-top {
+        width: 94%;
+        margin-left: 3%;
+    }
+}
+
+/* ============================= */
+/* SMALL MOBILE RESPONSIVENESS */
+/* ============================= */
+
+@media screen and (max-width: 480px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 6px;
+        gap: 6px;
+    }
+
+    .logo {
+        width: 75px;
+        height: 38px;
+    }
+
+    .signin {
+        margin-left: auto;
+    }
+
+    .cart {
+        padding: 2px;
+    }
+
+    .cart i {
+        font-size: 16px;
+    }
+
+    /* Panel */
+    .panel {
+        height: 38px;
+    }
+
+    .panel1 {
+        width: 35px;
+    }
+
+    .links a {
+        padding: 4px;
+        margin: 2px;
+        font-size: 0.68rem;
+    }
+
+    /* Main image */
+    .mainimage {
+        height: 200px;
+    }
+
+    .image {
+        height: 200px;
+    }
+
+    /* Content */
+    .content {
+        width: 96%;
+        margin-left: 2%;
+        margin-top: -45px;
+        gap: 8px;
+    }
+
+    .box {
+        width: calc(50% - 4px);
+        height: 270px;
+        margin-top: 8px;
+    }
+
+    h2 {
+        font-size: 0.85rem;
+        min-height: 65px;
+        margin: 8px;
+    }
+
+    .boximage {
+        width: 90%;
+        height: 140px;
+        margin: 0 auto;
+    }
+
+    .box p {
+        font-size: 0.7rem;
+        margin-top: 8px;
+    }
+
+    /* Footer */
+    .footer-content {
+        width: 96%;
+        margin-left: 2%;
+        gap: 8px;
+    }
+
+    .fcontent {
+        width: 46%;
+        min-height: 210px;
+        margin-top: 18px;
+    }
+
+    .ftext1 {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+
+    .ftext2 {
+        font-size: 0.68rem;
+        margin-top: 8px;
+    }
+
+    /* Footer logo */
+    .footer-logo {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .flogo {
+        width: 80px;
+        margin-right: 25px;
+    }
+
+    .copyright {
+        width: 96%;
+        margin-left: 2%;
+        padding: 10px 5px 25px;
+    }
+
+    .cp1,
+    .cp2 {
+        font-size: 0.62rem;
+    }
+
+    .back-top {
+        width: 96%;
+        margin-left: 2%;
+    }
+}
+
